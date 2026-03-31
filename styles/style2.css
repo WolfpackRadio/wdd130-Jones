@@ -1,0 +1,32 @@
+/* header */
+
+nav {
+    display: grid;
+    width: 65%;
+    justify-self: center;
+    grid-template-columns: 100px 100px 1fr 1.1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+nav img {
+    width: 100px;
+}
+nav li {
+    list-style-type: none;
+}
+
+/* main */
+
+main{
+    display: grid;
+}
+main h1{
+    justify-self: center;
+}
+main hr {   
+    width: 50%;
+}
+.sections {
+    display: ;
+}
