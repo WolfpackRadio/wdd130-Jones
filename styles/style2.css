@@ -87,13 +87,16 @@ main hr {
 footer {
     background-color: #2A5C82;
     color: #fafafa;
-    height: 100px;
+    height: 10%;
     display: flex;
-    gap:70%;
+    gap:65%;
 }
 footer p {
     margin: 10px;
 }
 footer div {
-    justify-self: right;
+    margin: 10px;
+}
+footer img {
+    margin: 10px
 }
