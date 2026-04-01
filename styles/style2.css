@@ -88,7 +88,12 @@ footer {
     background-color: #2A5C82;
     color: #fafafa;
     height: 100px;
+    display: flex;
+    gap:70%;
 }
 footer p {
-    margin-top: 0;
+    margin: 10px;
+}
+footer div {
+    justify-self: right;
 }
