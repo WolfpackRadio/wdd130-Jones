@@ -1,6 +1,7 @@
 /* Hello */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
-    background-color:#2A5C82;
+    background-color:#fafafa;
     padding: 0;
     margin: 0;
 }
@@ -13,24 +14,37 @@ nav {
     grid-template-columns: .25fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: left;
-    background-color: #4A7C59;
+    background-color: #2A5C82;
     margin: 0;
 }
 nav a {
+    font-family: "Montserrat";
     text-align: center;
     color: #fafafa;
+    text-decoration: none;
 
 }
 nav a:hover {
     background-color: #fafafa;
-    color: #D96C30;
+    color: #4A7C59;
+}
+main {
+    border-bottom: 2px solid;
+    padding-bottom: 15px;
 }
 div {
     color: #D96C30;
 }
+ph {
+    font-family: "Open Sans";
+}
 footer {
-    background-color: #fafafa;
+    background-color: #2A5C82;
+    color: #fafafa;
     height: 100px;
+}
+footer p {
+    margin-top: 0;
 }
 .media {
     float: right;
