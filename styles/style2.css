@@ -5,6 +5,10 @@ body {
     padding: 0;
     margin: 0;
 }
+header {
+    background-color: #2A5C82;
+    width: 100%;
+}
 .logo {
     width: 100px;
 
@@ -17,7 +21,6 @@ nav {
     align-items: center;
     justify-items: center;
     gap: 10px;
-    background-color: #2A5C82;
     margin: 0;
 }
 
